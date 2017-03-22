@@ -1,0 +1,128 @@
+@charset "utf-8";
+/* CSS Document */
+/*
+body{
+    background-color: #eee;
+}
+
+.bd-login{
+    position: relative;
+    margin: 200px auto;
+    width: 500px;
+    height: 300px;
+    background-color: #0088cc;
+}
+.login-form{
+    position: absolute;
+    margin:50px 80px;
+}
+
+#login-table{
+    border:0;
+}
+
+#login-table tr {
+    height:60px;
+}
+
+.input-user{
+    width: 250px;
+    height: 40px;
+    ime-mode: Disabled;
+}
+
+#btn_login_portal{
+    position: absolute;
+    left:60px;
+    width:75px;
+    height: 40px;
+    background-color: #398439;
+    color:#ffffff;
+    font-weight: bold;
+    border:0;
+    text-align: center;
+}
+*/
+/**************************************中航********************************************************/
+
+
+.w{ width:100%;}
+.w970{ width:970px; margin:0 auto;}
+.w990{ width:990px; margin:0 auto;}
+.clear{ clear:both;}
+
+.header_cloud{ height:99px;}
+.header_cloud #logo_cloud{ float:left; width:680px; margin-top:33px;}
+.header_cloud #logo_cloud #logo_pic_cloud{float:left; width:76px;}
+.header_cloud #logo_cloud #logo_text_cloud{float:left; width:215px;}
+.header_cloud #login_cloud{ float:right;  margin-top:33px;}
+#user_cloud{ width:370px; height:85px; background: #fff; border: 1px solid #ddd; display:none; padding:5px 15px; position:absolute; right:143px; top:3px; z-index: 1002;}
+#user_cloud .txt1{ width:164px; height:20px; border:1px solid #c6c6c6; margin:2px 0; color: #444; line-height: normal; padding: 2px 1px 1px 0; -webkit-border-radius:0px; -moz-border-radius:0px; border-radius:0px; font-size:12px;}
+#user_cloud .txt2{ width:80px; height:20px; border:1px solid #c6c6c6; margin:2px 0; color: #444; line-height: normal; padding: 2px 1px 1px 0; -webkit-border-radius:0px; -moz-border-radius:0px; border-radius:0px; font-size:12px;}
+#user_cloud #login_close{ cursor: auto;}
+#user_cloud #login_close img{ position: absolute; right: 7px; top: 7px;}
+#btn_login_cloud{ background: url("../img/btn_login.png") no-repeat; width:99px; line-height:35px; border:none; color:#FFF;}
+.menu{ float:left; padding-left:8px;}
+.menu a{ margin-right:23px; font-size:14px; line-height:64px; font-family:arial,sans-serif; font-weight:bold;}
+.help{ float:right;  line-height:64px; font-family:arial,sans-serif;}
+
+.login_main{ background:url(../img/bg_cloud_login.png) repeat-x; height:312px; clear:both;}
+
+.readtxt_b{ font-size:28px; font-family:arial,sans-serif; text-align:center; margin-top: 48px;}
+.readtxt_s{ font-size:18px; font-family:arial,sans-serif; text-align:center; margin-top:27px; line-height:33px; font-weight:bold;}
+.readtxt_s img{ margin-left:20px;}
+
+#footer_cloud{ font-size:14px; font-family:arial,sans-serif; line-height:30px; text-align:center; margin-top:48px; margin-bottom:20px;}
+
+/* - Smart Office Portal */
+
+
+#logo_portal{ float:left; width:680px; margin-top:33px;}
+#logo_portal #logo_pic_cloud{float:left; width:76px;}
+#logo_portal #logo_text_cloud{float:left; width:355px; line-height:46px; font-size: 25px;}
+#login_portal{ float:right; margin-top:63px;}
+
+.pic_portal{ float:left; width:575px; height:340px; margin-top:50px;}
+.image_tig{margin-left: 400px; margin-top: 40px; font-size: 20px; line-height: 26px; color: gray;}
+.login_form{ width:366px; height:328px; float:right;  margin-top:-55px; margin-right:0px; border:1px solid #b6b6b7; background-color: white;}
+.login_form1{ width:366px; height:auto; float:left;  margin-top:55px; margin-right:0px; border:1px solid #b6b6b7; background-color: white;}
+
+#myTab{ }
+#myTab li{ width:183px; background:#727171;}
+#myTab li a{ border-radius:0; border:none; text-align:center; font-size:14px; font-weight:bold; color:#FFF; margin:0;}
+#myTab .active a{ color:#000;}
+#myTab li{
+    width: 360px;
+}
+.main_portal{
+    /*background:url(../img/login_bar.png) top center no-repeat; */
+    height:414px;  position: relative; margin-top: -40px;}
+.tab-content .txt1{ width:273px; height:32px; border:1px solid #c6c6c6; margin:2px 0; color: #444; line-height: normal; padding: 2px 1px 1px 30px; -webkit-border-radius:0px; -moz-border-radius:0px; border-radius:0px; font-size:12px; background:url(../img/ico_user.png) no-repeat; line-height:32px;}
+.tab-content .txt2{ width:198px; height:32px; border:1px solid #c6c6c6; margin:2px 0; color: #444; line-height: normal; padding: 2px 1px 1px 3px; -webkit-border-radius:0px; -moz-border-radius:0px; border-radius:0px; font-size:12px; line-height:32px;}
+.tab-content #userId{
+    background-position: 5px 0px;
+    margin-top: 15px;
+}
+.tab-content #password{
+    background-position: 5px -40px;
+    margin-top: 15px;
+}
+.tab-content .tab-pane{ padding:0 28px;}
+#btn_login_portal{ width:280px; height:34px; background:#25a0e1; color:#FFF; line-height:34px; font-size:15px; border:none;
+margin-top: 15px;}
+
+.line_portal{ clear:both; border-bottom:1px solid #e9e9e9; height:1px;}
+#footer_portal_link{ width: 500px; margin-right: 90px; margin-top: -20px;}
+#contract_us{ margin-left:80px; float: left;}
+#weixin{ margin-left:10px; float: left; width: 380px; line-height: 20px; font-size: 10px;}
+#weixindesc{ margin-left:150px; float: left;}
+#footer_portal{font-size:12px; font-family:arial,sans-serif; line-height:10px; margin-top:25px; margin-bottom:10px;}
+#footer_portal_download{float: left; margin-top: -20px; margin-left: -40px;}
+#footer_portal_link{ float:left;}
+#footer_portal_link a{ margin:0 5px;}
+.footer_portal_copyright{ float:left; text-align: center; line-height: 25px; margin-top: 10px;}
+
+
+
+
+

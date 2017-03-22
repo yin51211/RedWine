@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Maven: org.hibernate.common:hibernate-commons-annotations:4.0.0.CR2">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/hibernate/common/hibernate-commons-annotations/4.0.0.CR2/hibernate-commons-annotations-4.0.0.CR2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

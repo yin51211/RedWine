@@ -1,0 +1,36 @@
+.tag {
+    position:relative;
+    width:150px;
+    height:80px;
+    border:1px solid #d8d8d8;
+    margin-top: 19px;
+    /*background-color:#FFF;*/
+}
+.arrow{
+    position:relative;
+    left:100px;
+    z-index:10;
+}
+.arrow *{
+    display:block;
+    border-width:10px;/*triangle size*/
+    position:absolute;
+    border-style: dashed dashed solid; /*solve other black triangle for IE6 */
+    font-size:0;
+    line-height:0;
+}
+
+.belowTriangle{
+    border-color: transparent transparent #d8d8d8;/*get A Triangle #d8d8d8*/
+}
+/* down Triangle*/
+.aboveTriangle{
+   border-color: transparent transparent #FFF;/*get A Triangle #FFF*/
+    /*top:-1px;*/ /*top Triangle*/
+    top:1px;
+}
+
+
+
+
+
